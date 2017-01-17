@@ -1,0 +1,25 @@
+F:\Yanik blake\Inventory System-April-5-2016\bin\Release\Inventory System.exe.config
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.About.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Add_Category.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Add_Item.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.CreateUser.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Delete.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.DeleteUser.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Edit.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.ForgetPassword.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.InventoryTransaction.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.MainForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.NewRequest.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.ReceivableForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.ReceivedLog.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Reports.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Resource1.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.LoginForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.SupplierForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Units.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory_System.Update_Quantity.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory System.csproj.GenerateResource.Cache
+F:\Yanik blake\Inventory System-April-5-2016\bin\Release\Inventory System.exe
+F:\Yanik blake\Inventory System-April-5-2016\bin\Release\itextsharp.dll
+F:\Yanik blake\Inventory System-April-5-2016\bin\Release\itextsharp.pdfa.dll
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Release\Inventory System.exe

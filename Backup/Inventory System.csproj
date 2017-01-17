@@ -1,0 +1,204 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{71EE7855-08BF-481B-B070-33F7EFCDE10D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Inventory_System</RootNamespace>
+    <AssemblyName>Inventory System</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\vstudent\Desktop\sharpdev\User\SharpDevelop-3\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\Itext\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\Itext\itextsharp-dll-core-wo_Drawing\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\..\..\..\Itext\itextsharp-dll-pdfa\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs" />
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Item.cs" />
+    <Compile Include="Add Item.Designer.cs">
+      <DependentUpon>Add Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Item.cs" />
+    <Compile Include="Classes\Recievable.cs" />
+    <Compile Include="Classes\Report.cs" />
+    <Compile Include="Classes\Request.cs" />
+    <Compile Include="Classes\Supplier.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Classes\Validate.cs" />
+    <Compile Include="Classes\XOREncryption.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="CreateUser.cs" />
+    <Compile Include="CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Data_Access\DatabaseAccess.cs" />
+    <Compile Include="Delete.cs" />
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUser.cs" />
+    <Compile Include="DeleteUser.Designer.cs">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.cs" />
+    <Compile Include="Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.cs" />
+    <Compile Include="ForgetPassword.Designer.cs">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryTransaction.cs" />
+    <Compile Include="InventoryTransaction.Designer.cs">
+      <DependentUpon>InventoryTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewRequest.cs" />
+    <Compile Include="NewRequest.Designer.cs">
+      <DependentUpon>NewRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceivableForm.cs" />
+    <Compile Include="ReceivableForm.Designer.cs">
+      <DependentUpon>ReceivableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceivedLog.cs" />
+    <Compile Include="ReceivedLog.Designer.cs">
+      <DependentUpon>ReceivedLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs" />
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SplahScreen.cs" />
+    <Compile Include="SplahScreen.Designer.cs">
+      <DependentUpon>SplahScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierForm.cs" />
+    <Compile Include="SupplierForm.Designer.cs">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Units.cs" />
+    <Compile Include="Units.Designer.cs">
+      <DependentUpon>Units.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Quantity.cs" />
+    <Compile Include="Update Quantity.Designer.cs">
+      <DependentUpon>Update Quantity.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Item.resx">
+      <DependentUpon>Add Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUser.resx">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPassword.resx">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryTransaction.resx">
+      <DependentUpon>InventoryTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRequest.resx">
+      <DependentUpon>NewRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceivableForm.resx">
+      <DependentUpon>ReceivableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceivedLog.resx">
+      <DependentUpon>ReceivedLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplahScreen.resx">
+      <DependentUpon>SplahScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierForm.resx">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Units.resx">
+      <DependentUpon>Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Quantity.resx">
+      <DependentUpon>Update Quantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Inventory System.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes" />
+    <Folder Include="Data_Access" />
+  </ItemGroup>
+</Project>

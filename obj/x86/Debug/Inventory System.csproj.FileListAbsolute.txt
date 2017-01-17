@@ -1,0 +1,277 @@
+F:\Inventory System-March-18-16\bin\Debug\Inventory System.exe.config
+F:\Inventory System-March-18-16\bin\Debug\Inventory System.exe
+F:\Inventory System-March-18-16\bin\Debug\Inventory System.pdb
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.About.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Item.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.CreateUser.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Delete.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.DeleteUser.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Edit.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.MainForm.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.NewRequest.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Reports.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Resource1.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.LoginForm.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.SupplierForm.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Units.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.exe
+F:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.pdb
+G:\Inventory System-March-18-16\bin\Debug\Inventory System.exe.config
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.exe
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.pdb
+G:\Inventory System-March-18-16\bin\Debug\Inventory System.exe
+G:\Inventory System-March-18-16\bin\Debug\Inventory System.pdb
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.About.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Item.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.CreateUser.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Delete.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.DeleteUser.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Edit.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.MainForm.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.NewRequest.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Reports.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Resource1.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.LoginForm.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.SupplierForm.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Units.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+G:\Inventory System-March-18-16\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+G:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.exe.config
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.exe
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.pdb
+G:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.exe
+G:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.pdb
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.About.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Item.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.CreateUser.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Delete.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.DeleteUser.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Edit.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.MainForm.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.NewRequest.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Reports.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Resource1.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.LoginForm.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.SupplierForm.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Units.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+E:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.exe.config
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.exe
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.pdb
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.About.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Category.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Item.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.CreateUser.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Delete.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.DeleteUser.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Edit.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.MainForm.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.NewRequest.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Reports.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Resource1.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.LoginForm.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.SupplierForm.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Units.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+E:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+E:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.exe
+E:\Yanik blake\Inventory System-March-18-16\bin\Debug\Inventory System.pdb
+G:\Yanik blake\Inventory System-March-18-16\obj\x86\Debug\Inventory_System.Add_Category.resources
+E:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe.config
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.exe
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.pdb
+E:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe
+E:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.pdb
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.About.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Delete.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Edit.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Reports.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Units.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+E:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+G:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe.config
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.exe
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.pdb
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.About.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Delete.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Edit.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Reports.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Units.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+G:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+G:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe
+G:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.pdb
+F:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe.config
+F:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.exe
+F:\Yanik blake\Inventory System-April-5-2016\bin\Debug\Inventory System.pdb
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.About.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Delete.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Edit.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Reports.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Units.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.exe
+F:\Yanik blake\Inventory System-April-5-2016\obj\x86\Debug\Inventory System.pdb
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe.config
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.exe
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.pdb
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.pdb
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.About.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Delete.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Edit.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Reports.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Units.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+C:\Users\vstudent\Desktop\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe.config
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.exe
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.pdb
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.pdb
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.About.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Delete.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Edit.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Reports.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Units.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+F:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe.config
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.exe
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.pdb
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.pdb
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.About.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Delete.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Edit.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.RequestForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.requestLoginForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Reports.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Units.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+H:\Inventory System 03-05-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe.config
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.exe
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\bin\Debug\Inventory System.pdb
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.About.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Category.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Add_Item.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.CreateUser.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Delete.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.DeleteUser.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Edit.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.RequestForm.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.MainForm.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.NewRequest.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Reports.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.LoginForm.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.SupplierForm.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Units.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.exe
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.pdb
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory_System.Resource1.resources
+H:\Inventory System 18-06-2016\Inventory System-May-3-2016\obj\x86\Debug\Inventory System.csprojResolveAssemblyReference.cache

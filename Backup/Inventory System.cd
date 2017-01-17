@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Inventory_System.NewRequest" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.710944" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.InventoryTransaction" Collapsed="False">
+    <Position X="0.5" Y="8.7" Width="2.695475" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Connection" Collapsed="False">
+    <Position X="0.5" Y="11.8" Width="1.883849" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.About" Collapsed="False">
+    <Position X="0.5" Y="13.7" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Add_Item" Collapsed="False">
+    <Position X="0.5" Y="17" Width="2.400334" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Classes.Item" Collapsed="False">
+    <Position X="0.5" Y="22.4" Width="1.674298" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Classes.Request" Collapsed="False">
+    <Position X="0.5" Y="26.1" Width="1.887531" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Delete" Collapsed="False">
+    <Position X="0.5" Y="30.6" Width="2.727004" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.MainForm" Collapsed="False">
+    <Position X="0.5" Y="35" Width="3.484435" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Resource1" Collapsed="False">
+    <Position X="4.3" Y="44.4" Width="2.818288" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.SplahScreen" Collapsed="False">
+    <Position X="7.4" Y="44" Width="1.887931" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Update_Quantity" Collapsed="False">
+    <Position X="6.4" Y="51.5" Width="2.727004" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Inventory_System.Program" Collapsed="False">
+    <Position X="5.2" Y="42.2" Width="1.4" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
