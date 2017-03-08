@@ -302,3 +302,30 @@ C:\Users\VStudent\Desktop\inventory_management_desktop_app-master\obj\x86\Debug\
 C:\Users\VStudent\Desktop\inventory_management_desktop_app-master\obj\x86\Debug\Inventory_System.Update_Quantity.resources
 C:\Users\VStudent\Desktop\inventory_management_desktop_app-master\obj\x86\Debug\Inventory_System.Resource1.resources
 C:\Users\VStudent\Desktop\inventory_management_desktop_app-master\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\bin\Debug\CIMS.exe.config
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\CIMS.exe
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\CIMS.pdb
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\bin\Debug\CIMS.exe
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\bin\Debug\CIMS.pdb
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.About.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Add_Category.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Add_Item.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.CreateUser.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Delete.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.DeleteUser.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Edit.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.ForgetPassword.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Requests.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.InventoryTransaction.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.RequestForm.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.MainForm.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.NewRequest.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.ReceivableForm.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.ReceivedLog.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Reports.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.LoginForm.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.SupplierForm.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Units.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Update_Quantity.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Resource1.resources
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache

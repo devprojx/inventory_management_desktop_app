@@ -1096,5 +1096,11 @@ namespace Inventory_System
         {
 
         }
+
+        private void requestToPdfBtn_Click(object sender, EventArgs e)
+        {
+            Requests requestDialog = new Requests();
+            requestDialog.ShowDialog();
+        }
     }
 }

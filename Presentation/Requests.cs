@@ -21,14 +21,14 @@ namespace Inventory_System
 	/// <summary>
 	/// Description of InventoryTransaction.
 	/// </summary>
-	public partial class InventoryTransaction : Form
+	public partial class Requests : Form
 	{
 		
 		
 		 private OleDbConnection accessConnection = new OleDbConnection();
 		 OleDbDataAdapter adapter = new OleDbDataAdapter();
 		  
-		public InventoryTransaction()
+		public Requests()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -43,13 +43,13 @@ namespace Inventory_System
 		}
 		
 		//Retrieve Items from inventory
-		void LoadTransactionLog()
+		void LoadRequestLog()
 		{
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                                ReceivedBy as `Received By`,  (AmountRequested * PerCost) as `Cost`  FROM RequestTbl order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester` FROM RequestTbl where status = 'R'";
 			    DataTable datatable = new DataTable();
 				dataGridView1.DataSource = datatable;
 	        	OleDbDataAdapter adapter = new OleDbDataAdapter(sql,accessConnection);
@@ -68,7 +68,7 @@ namespace Inventory_System
 		//Load items in inventory on Shown event
 		void InventoryTransactionShown(object sender, EventArgs e)
 		{
-			LoadTransactionLog();
+			LoadRequestLog();
 		}
 		
 		//Enable Parent form onclosed event
@@ -124,7 +124,7 @@ namespace Inventory_System
 				 FindTransactionByDateAndName(temp, nameTxtBox.Text);
 				return;
 			}
-			LoadTransactionLog();
+			LoadRequestLog();
 		}
 		
 		//Get data from data base on the date and store them in a datatable
@@ -133,8 +133,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                            ReceivedBy as `Received By`,  (AmountRequested * PerCost) as `Cost` from RequestTbl Where  DateIssued like [0] order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester` from RequestTbl Where  DateIssued like [0] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -159,8 +159,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                               ReceivedBy as `Received By`,  (AmountRequested * PerCost) as `Cost`  FROM RequestTbl Where ItemName like [0] order by DateIssued Desc ";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester`  FROM RequestTbl Where ItemName like [0] and status = 'R' order by DateIssued Desc ";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -186,8 +186,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                                ReceivedBy as `Received By`,  (AmountRequested * PerCost)  as `Cost` from RequestTbl Where  DateIssued like [0] and IssuedBy like [1] and ItemName like [2] order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester` from RequestTbl Where  DateIssued like [0] and ReceivedBy like [1] and ItemName like [2] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -217,8 +217,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                               ReceivedBy as `Received By`,  (AmountRequested * PerCost)  as `Cost`  FROM RequestTbl Where IssuedBy like [1] and Itemname like [2] order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester`  FROM RequestTbl Where ReceivedBy like [1] and Itemname like [2] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -246,8 +246,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                               ReceivedBy as `Received By`,  (AmountRequested * PerCost)  as `Cost`  FROM RequestTbl Where DateIssued like [0] and Itemname like [2] order by DateIssued Desc";
+				string sql  = @"SELECT SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester`  FROM RequestTbl Where DateIssued like [0] and Itemname like [2] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -276,8 +276,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @"SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                                ReceivedBy as `Received By`,  (AmountRequested * PerCost)  as `Cost`  FROM RequestTbl Where DateIssued like [0] and IssuedBy like [1] order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester`  FROM RequestTbl Where DateIssued like [0] and ReceivedBy like [1] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -304,8 +304,8 @@ namespace Inventory_System
 			try
 			{
 				accessConnection.Open();
-				string sql  = @" SELECT ItemCode as `Item Code`, ItemName as `Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`,  DateIssued as `Date Issued`, IssuedBy as `Issued By`,
-                                ReceivedBy as `Received By`,  (AmountRequested * PerCost)  as `Cost` FROM RequestTbl Where IssuedBy like [0] order by DateIssued Desc";
+				string sql  = @"SELECT id as `Request Id`, ItemCode as `Item Code`, ItemName as`Item`, DateRequested as `Date Requested`, AmountRequested as `Amount Requested`
+                              , `ReceivedBy` as `Requester` FROM RequestTbl Where ReceivedBy like [0] and status = 'R' order by DateIssued Desc";
 				OleDbCommand cmd = new OleDbCommand();
 				cmd.Connection = accessConnection;
 				cmd.CommandText = sql;
@@ -330,7 +330,7 @@ namespace Inventory_System
 		void RefreshClick(object sender, EventArgs e)
 		{
 			refresh.BackColor = Color.LightSteelBlue;
-			LoadTransactionLog();
+			LoadRequestLog();
 		}
 		
 /*----------------------Create animation effect on refresh button----------------------*/
@@ -353,54 +353,20 @@ namespace Inventory_System
 		{
             if (dataGridView1.Rows.Count == 0)
             {
-                MessageBox.Show("Transaction Generation Failed: There are no transaction available");
+                MessageBox.Show("Request Generation Failed: There are no requests available");
                 return;
             }
-            if (dateMskTxtbx.MaskCompleted && nameTxtBox.Text.Trim(' ') == "")
+
+            if (nameTxtBox.Text.Trim(' ') != "")
 			{
-				
-			Report.GetInstance().ExportTransactionLog(dataGridView1, "Transaction logged for the month of "+dataGridView1[3,0].Value.ToString().Remove(0,2));
-				
-			}
-			else if(nameTxtBox.Text.Trim(' ') != "" && !dateMskTxtbx.MaskCompleted)
-			{
-				
-				  Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions logged by "+dataGridView1[5,0].Value.ToString());
-				
-			}
-			else if(dateMskTxtbx.MaskCompleted && nameTxtBox.Text != "")
-			{
-				
-			    Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions logged by "+dataGridView1[5, 0].Value.ToString() + " in the month of "+ dataGridView1[3,0].Value.ToString().Remove(0, 2));
-			
-			}
-			else if(itemnameTxtBox.Text.Trim(' ') != "" && dateMskTxtbx.MaskCompleted && nameTxtBox.Text != "")
-			{
-				
-					Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions for "+ dataGridView1[2, 0].Value.ToString() +" logged by "+dataGridView1[5, 0].Value.ToString() + " in the month of "+ dataGridView1[3,0].Value.ToString().Remove(0, 2));
-				
-			}
-			else if(itemnameTxtBox.Text.Trim(' ') != "" && !dateMskTxtbx.MaskCompleted && nameTxtBox.Text == "")
-			{
-				
-					Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions for "+ dataGridView1[2, 0].Value.ToString());
-				
-			}
-			else if(itemnameTxtBox.Text.Trim(' ') != "" && dateMskTxtbx.MaskCompleted && nameTxtBox.Text.Trim(' ') == "")
-			{
-				
-					Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions for "+ dataGridView1[2, 0].Value.ToString() +" logged by in the month of "+ dataGridView1[3,0].Value.ToString().Remove(0, 2));
-				
-			}
-			else if(itemnameTxtBox.Text.Trim(' ') != "" && !dateMskTxtbx.MaskCompleted && nameTxtBox.Text.Trim(' ') != "")
-			{
-				
-					Report.GetInstance().ExportTransactionLog(dataGridView1, "Transactions for "+ dataGridView1[2, 0].Value.ToString() +" logged by "+ dataGridView1[5, 0].Value.ToString());
+                String s = (dataGridView1.Rows.Count > 1) ? "Inventory Requests For " : "Inventory Request For ";
+                Report.GetInstance().ExportRequest(dataGridView1, s + dataGridView1[5,0].Value.ToString());
 				
 			}
 			else
 			{
-		       Report.GetInstance().ExportTransactionLog(dataGridView1, "All Transactions ");
+                String s = (dataGridView1.Rows.Count > 1) ? "Inventory Requests" : "Inventory Request";
+                    Report.GetInstance().ExportRequest(dataGridView1, s);
 			}
 		}
 		

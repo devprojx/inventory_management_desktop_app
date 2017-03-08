@@ -69,6 +69,7 @@ namespace Inventory_System
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.requestDialogBtn = new System.Windows.Forms.Button();
             this.requestGridView = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.reportChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -160,21 +161,21 @@ namespace Inventory_System
             // transactionLogsToolStripMenuItem
             // 
             this.transactionLogsToolStripMenuItem.Name = "transactionLogsToolStripMenuItem";
-            this.transactionLogsToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.transactionLogsToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.transactionLogsToolStripMenuItem.Text = "Transaction Logs";
             this.transactionLogsToolStripMenuItem.Click += new System.EventHandler(this.TransactionLogsToolStripMenuItemClick);
             // 
             // receivableLogsToolStripMenuItem
             // 
             this.receivableLogsToolStripMenuItem.Name = "receivableLogsToolStripMenuItem";
-            this.receivableLogsToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.receivableLogsToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.receivableLogsToolStripMenuItem.Text = "Receivable Logs";
             this.receivableLogsToolStripMenuItem.Click += new System.EventHandler(this.ReceivableLogsToolStripMenuItemClick);
             // 
             // exportItemListAsPDFToolStripMenuItem
             // 
             this.exportItemListAsPDFToolStripMenuItem.Name = "exportItemListAsPDFToolStripMenuItem";
-            this.exportItemListAsPDFToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.exportItemListAsPDFToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
             this.exportItemListAsPDFToolStripMenuItem.Text = "Export Item List As PDF";
             this.exportItemListAsPDFToolStripMenuItem.Click += new System.EventHandler(this.ExportItemListAsPDFToolStripMenuItemClick);
             // 
@@ -264,7 +265,7 @@ namespace Inventory_System
             this.reportsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reportsToolStripMenuItem.Image = global::Inventory_System.Resource1.report;
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(90, 25);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(89, 25);
             this.reportsToolStripMenuItem.Text = "Reports";
             this.reportsToolStripMenuItem.Click += new System.EventHandler(this.ReportsToolStripMenuItemClick);
             // 
@@ -288,7 +289,7 @@ namespace Inventory_System
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Font = new System.Drawing.Font("Open Sans", 12.75F);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
             this.tabControl1.HotTrack = true;
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tabControl1.Location = new System.Drawing.Point(48, 60);
@@ -303,10 +304,10 @@ namespace Inventory_System
             this.tabPage1.Controls.Add(this.printBtn);
             this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 32);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(875, 478);
+            this.tabPage1.Size = new System.Drawing.Size(875, 481);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Notifications";
             // 
@@ -334,6 +335,7 @@ namespace Inventory_System
             this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList2.Images.SetKeyName(0, "excel.png");
+            this.imageList2.Images.SetKeyName(1, "pdf.png");
             // 
             // dataGridView1
             // 
@@ -365,40 +367,60 @@ namespace Inventory_System
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.requestDialogBtn);
             this.tabPage6.Controls.Add(this.requestGridView);
-            this.tabPage6.Location = new System.Drawing.Point(4, 32);
+            this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(875, 478);
+            this.tabPage6.Size = new System.Drawing.Size(875, 481);
             this.tabPage6.TabIndex = 6;
             this.tabPage6.Text = "Requests";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // requestDialogBtn
+            // 
+            this.requestDialogBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.requestDialogBtn.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.requestDialogBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.requestDialogBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.requestDialogBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.requestDialogBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.requestDialogBtn.Location = new System.Drawing.Point(688, 4);
+            this.requestDialogBtn.Name = "requestDialogBtn";
+            this.requestDialogBtn.Size = new System.Drawing.Size(181, 31);
+            this.requestDialogBtn.TabIndex = 3;
+            this.requestDialogBtn.Text = "Open Request Dialog";
+            this.requestDialogBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.requestDialogBtn.UseVisualStyleBackColor = false;
+            this.requestDialogBtn.Click += new System.EventHandler(this.requestToPdfBtn_Click);
             // 
             // requestGridView
             // 
             this.requestGridView.AllowUserToAddRows = false;
             this.requestGridView.AllowUserToDeleteRows = false;
+            this.requestGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.requestGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.requestGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.requestGridView.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Open Sans", 11.25F);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.requestGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.requestGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.requestGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.requestGridView.GridColor = System.Drawing.Color.DarkGray;
-            this.requestGridView.Location = new System.Drawing.Point(3, 3);
+            this.requestGridView.Location = new System.Drawing.Point(3, 39);
             this.requestGridView.MultiSelect = false;
             this.requestGridView.Name = "requestGridView";
             this.requestGridView.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.Salmon;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Open Sans", 12.75F);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -406,7 +428,7 @@ namespace Inventory_System
             this.requestGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.requestGridView.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.Lavender;
             this.requestGridView.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.SystemColors.Menu;
-            this.requestGridView.Size = new System.Drawing.Size(869, 472);
+            this.requestGridView.Size = new System.Drawing.Size(869, 439);
             this.requestGridView.TabIndex = 1;
             this.requestGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.requestTable_CellClick);
             this.requestGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.requestGridView_CellContentClick);
@@ -414,10 +436,10 @@ namespace Inventory_System
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.reportChart);
-            this.tabPage4.Location = new System.Drawing.Point(4, 32);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(875, 478);
+            this.tabPage4.Size = new System.Drawing.Size(875, 481);
             this.tabPage4.TabIndex = 4;
             this.tabPage4.Text = "Item Usage for last three (3) Mnths";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -437,7 +459,7 @@ namespace Inventory_System
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.reportChart.Series.Add(series1);
-            this.reportChart.Size = new System.Drawing.Size(869, 472);
+            this.reportChart.Size = new System.Drawing.Size(869, 475);
             this.reportChart.SuppressExceptions = true;
             this.reportChart.TabIndex = 14;
             // 
@@ -446,10 +468,10 @@ namespace Inventory_System
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage2.Location = new System.Drawing.Point(4, 32);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(875, 478);
+            this.tabPage2.Size = new System.Drawing.Size(875, 481);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Items";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -504,10 +526,10 @@ namespace Inventory_System
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 32);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(875, 478);
+            this.tabPage3.Size = new System.Drawing.Size(875, 481);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "Suppliers\' Info";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -527,7 +549,7 @@ namespace Inventory_System
             this.dataGridView3.ReadOnly = true;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Open Sans", 12.75F);
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
             dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -535,16 +557,16 @@ namespace Inventory_System
             this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView3.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.dataGridView3.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.dataGridView3.Size = new System.Drawing.Size(869, 472);
+            this.dataGridView3.Size = new System.Drawing.Size(869, 475);
             this.dataGridView3.TabIndex = 1;
             // 
             // tabPage5
             // 
             this.tabPage5.Controls.Add(this.activityExportBtn);
             this.tabPage5.Controls.Add(this.activityDatagrid);
-            this.tabPage5.Location = new System.Drawing.Point(4, 32);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(875, 478);
+            this.tabPage5.Size = new System.Drawing.Size(875, 481);
             this.tabPage5.TabIndex = 5;
             this.tabPage5.Text = "Activity Log";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -585,7 +607,7 @@ namespace Inventory_System
             this.activityDatagrid.ReadOnly = true;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Open Sans", 12.75F);
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F);
             dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -910,5 +932,6 @@ namespace Inventory_System
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.DataGridView requestGridView;
         private System.Windows.Forms.ImageList imageList2;
+        private System.Windows.Forms.Button requestDialogBtn;
     }
 }

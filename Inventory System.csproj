@@ -155,6 +155,12 @@
     <Compile Include="Presentation\ForgetPassword.Designer.cs">
       <DependentUpon>ForgetPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\Requests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Requests.Designer.cs">
+      <DependentUpon>Requests.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentation\InventoryTransaction.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -251,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\ForgetPassword.resx">
       <DependentUpon>ForgetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Requests.resx">
+      <DependentUpon>Requests.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\InventoryTransaction.resx">
       <DependentUpon>InventoryTransaction.cs</DependentUpon>

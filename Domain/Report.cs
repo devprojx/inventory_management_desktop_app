@@ -317,6 +317,97 @@ namespace Inventory_System.Classes
                 base.OnCloseDocument(writer, document);
             }
         }
+
+        //Create a PDF file based on the datagridview generated
+        public void ExportRequest(DataGridView dataGridView1, string ReportTitle)
+        {
+            SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.Filter = " Pdf Document (.pdf) | *.pdf";
+            saveFile.CheckFileExists = false;
+            saveFile.CheckPathExists = false;
+            if (saveFile.ShowDialog() == DialogResult.OK)
+            {
+                if (IsFileInUse(saveFile.FileName))
+                {
+                    MessageBox.Show("File is being used by another program try closing the file and try again", "", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    return;
+                }
+                Document doc = new Document(PageSize.LETTER_LANDSCAPE, 10, 10, 42, 30);
+                Paragraph para = new Paragraph("VTDI-MAN-RESQUEST");
+                Paragraph title = new Paragraph(ReportTitle);
+                title.Alignment = 1;
+                title.SpacingAfter = 50f;
+                Image Png = Image.GetInstance(@"header.png");
+                try
+                {
+
+                    PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(saveFile.FileName, FileMode.Create));
+                    Png.ScalePercent(40);
+                    Png.SetAbsolutePosition(40f, 630f);
+                    para.SpacingAfter = 140f;
+                    doc.Open();
+                    if (dataGridView1.Columns.Count == 0)
+                    {
+                        MessageBox.Show("No data to export");
+                        return;
+                    }
+                    PdfPTable table = new PdfPTable(dataGridView1.Columns.Count);
+
+                    table.HorizontalAlignment = 1;
+                    table.WidthPercentage = 100;
+
+                    table.AddCell("Request Id");
+                    table.AddCell("Item Code");
+                    table.AddCell("Item Name");
+                    table.AddCell("Date Requested");
+                    table.AddCell("Amount Requested");
+                    table.AddCell("Requester");
+                    table.SpacingAfter = 50f;
+                    for (int j = 0; j < dataGridView1.Rows.Count; j++)
+                    {
+
+                        for (int i = 0; i < dataGridView1.Rows[j].Cells.Count; i++)
+                        {
+                            if (dataGridView1[i, j].Value == null)
+                            {
+                                break;
+                            }
+                            table.AddCell(dataGridView1.Rows[j].Cells[i].Value.ToString());
+                        }
+                    }
+
+                    //signature table
+                    PdfPTable signaturetable = new PdfPTable(dataGridView1.Columns.Count);
+                    table.HorizontalAlignment = 1;
+                    table.WidthPercentage = 100;
+
+                    table.AddCell("Approved By: ");
+                    table.AddCell("");
+                    table.AddCell("Signature: ");
+                    table.AddCell("");
+                    table.AddCell("Date: ");
+                    table.AddCell("");
+                    doc.Add(Png);
+                    doc.Add(para);
+                    doc.Add(title);
+                    doc.Add(table);
+                    doc.Add(signaturetable);
+                    doc.Close();
+                    writer.Close();
+                    System.Diagnostics.Process.Start(saveFile.FileName);
+                }
+                catch (Exception t)
+                {
+                    MessageBox.Show("" + t);
+
+                }
+                finally
+                {
+
+                }
+            }
+        }
+
         //Check if file is being used by another program
         static bool IsFileInUse(string filename)
 		{
