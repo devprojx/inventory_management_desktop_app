@@ -37,14 +37,16 @@ namespace Inventory_System.Classes
             {
                 monthDif = 1;
             }
-            else if (DateTime.Now.Month == 1)
+            else if (DateTime.Now.Month == 1 || DateTime.Now.Month == monthDif)
             {
                 monthDif = 0;
             }
             
             day = (DateTime.Now.Day <= 9) ? (DateTime.Now.Day.ToString("D" + 2)).ToString() : DateTime.Now.Day.ToString();
             month = ((DateTime.Now.Month - monthDif) <= 9) ? ((DateTime.Now.Month - monthDif).ToString("D"+2)).ToString() : (DateTime.Now.Month - monthDif).ToString();
+            
             date = day + "/"+month + "/" + DateTime.Now.Year;
+            
             return date;
         }
         public static string getTodayDate()
@@ -147,6 +149,7 @@ namespace Inventory_System.Classes
 		   return isTrue;
 	    }
 
+        
         public static bool IsFileInUse(string filename)
         {
             if (File.Exists(filename))

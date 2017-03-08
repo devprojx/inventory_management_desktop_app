@@ -902,9 +902,9 @@ namespace Inventory_System
             DataTable table = new DataTable();
             DataGridView grid = new DataGridView();
             this.Controls.Add(grid);
-
             DateTime fromDate = DateTime.ParseExact(Utilities.getDate(3), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
+          
             DateTime toDate = DateTime.ParseExact(Utilities.getTodayDate(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
             try
