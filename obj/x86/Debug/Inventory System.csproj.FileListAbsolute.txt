@@ -329,3 +329,4 @@ C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Invento
 C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Update_Quantity.resources
 C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory_System.Resource1.resources
 C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory System.csproj.GenerateResource.Cache
+C:\Users\VStudent\Desktop\inventory_management_desktop_app\obj\x86\Debug\Inventory System.csprojResolveAssemblyReference.cache

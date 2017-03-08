@@ -376,8 +376,8 @@ namespace Inventory_System.Classes
                         }
                     }
 
-                    //signature table
-                    PdfPTable signaturetable = new PdfPTable(dataGridView1.Columns.Count);
+                    //approval table
+                    PdfPTable approvaltable = new PdfPTable(dataGridView1.Columns.Count);
                     table.HorizontalAlignment = 1;
                     table.WidthPercentage = 100;
 
@@ -387,11 +387,25 @@ namespace Inventory_System.Classes
                     table.AddCell("");
                     table.AddCell("Date: ");
                     table.AddCell("");
+
+                    //issued table
+                    PdfPTable issuedtable = new PdfPTable(dataGridView1.Columns.Count);
+                    table.HorizontalAlignment = 1;
+                    table.WidthPercentage = 100;
+
+                    table.AddCell("Issued By: ");
+                    table.AddCell("");
+                    table.AddCell("Signature: ");
+                    table.AddCell("");
+                    table.AddCell("Date: ");
+                    table.AddCell("");
+
                     doc.Add(Png);
                     doc.Add(para);
                     doc.Add(title);
                     doc.Add(table);
-                    doc.Add(signaturetable);
+                    doc.Add(approvaltable);
+                    doc.Add(issuedtable);
                     doc.Close();
                     writer.Close();
                     System.Diagnostics.Process.Start(saveFile.FileName);
