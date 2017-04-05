@@ -241,8 +241,9 @@ namespace Inventory_System.Classes
 			        	 	table.AddCell("Item Name");
 			        	 	table.AddCell("Overall Usage");
 			        	 	table.AddCell("Unit");
-			        
-			        	 for(int j = 0; j < dataGridView1.Rows.Count; j++)
+			        	 	table.AddCell("Cost ($)");
+
+                    for (int j = 0; j < dataGridView1.Rows.Count; j++)
 			        	 {
 			        	 	
 			        	 	for(int i = 0; i < dataGridView1.Rows[j].Cells.Count; i++)
